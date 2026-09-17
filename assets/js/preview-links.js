@@ -37,6 +37,7 @@
       var href = a.getAttribute("href");
       if (!href) return;
       if (/^(#|https?:|mailto:|tel:|\/)/.test(href)) return;   /* anchors, external, absolute */
+      if (/^\.?\/?$/.test(href)) return;                       /* this page: the nav's own brand */
       if (!PAGE.test(href)) return;                            /* a file that is in this repo */
       a.setAttribute("href", absolute(href));
       a.setAttribute("data-preview-link", "");
