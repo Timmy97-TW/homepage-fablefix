@@ -11,6 +11,13 @@ The first commit is the homepage exactly as it stood on the wiki
 (`releaf-wiki@c4408d0`). Everything after it is this pass, so
 `git diff 50c8ce2..HEAD` is the whole proposal and nothing else.
 
+> **Status, 17 Sep 2026:** merged into the wiki (`releaf-wiki@7e1d542`) and
+> trimmed since. On request: every section seam is a hard cut; the page uses two
+> grounds only, white and ink; and the hero credentials line, the plain-language
+> sub, the "Start with the problem" button, the "three ways it grows" and "four
+> things between the bench and a farm" blocks, and the vision closing line are
+> all gone. Sections below describe the original pass; struck items were removed.
+
 ## What this pass was trying to fix
 
 The homepage already argues its case better than most iGEM wikis: three beats of
@@ -36,13 +43,13 @@ sub-pages already carry; nothing new is asserted anywhere.
 
 ### 1. The hero says what it is in plain words
 
-- Added one line of credentials above the mark: GEMS Taiwan, iGEM 2026,
-  Biomanufacturing Village. A judge should not have to reach the footer for it.
-- Rewrote the sub-heading in plain language: *Sealed bacteria in a small reactor
-  make plant protectants beside the field, on the day they are needed.*
+- ~~Added one line of credentials above the mark: GEMS Taiwan, iGEM 2026,
+  Biomanufacturing Village. A judge should not have to reach the footer for it.~~ *(removed)*
+- ~~Rewrote the sub-heading in plain language: *Sealed bacteria in a small reactor
+  make plant protectants beside the field, on the day they are needed.*~~ *(removed)*
 - Moved the technical name (stress-responsive, optogenetic, perfusion) down into
   the dark act, where the machine it describes is on screen.
-- Added one way in at the bottom right: **Start with the problem**.
+- ~~Added one way in at the bottom right: **Start with the problem**.~~ *(removed)*
 
 The hero's composition contract is intact. The head is still short, the crop is
 untouched, and the type still clears Farmer Chen's face at 1280 and 1366 (the
@@ -69,14 +76,14 @@ column of cut-outs no longer runs under the dots.
   `assets/img/home/vision-hydroponics-1200.jpg` and `vision-field-1200.jpg`
   exist, the drawing is replaced by the render and the caption label swaps with
   it. Nothing needs editing.
-- Added **"One box, and three ways it grows"**: the output position is a socket,
+- ~~Added **"One box, and three ways it grows"**: the output position is a socket,
   the drawings are open and the parts are catalogue, and containment is what
   lets engineered cells stand beside a crop. That last one is the answer to
-  section 02, and it is the biggest claim the project can honestly make.
-- Added **"Four things stand between the bench and a farm"**: the light-to-dose
+  section 02, and it is the biggest claim the project can honestly make.~~ *(removed)*
+- ~~Added **"Four things stand between the bench and a farm"**: the light-to-dose
   curve, transfer and fouling, field temperature, and a contained-use route.
   All four were already declared open elsewhere on the page. Collected in one
-  place they read as a team that knows what it has not measured.
+  place they read as a team that knows what it has not measured.~~ *(removed)*
 
 ### 4. The order of the closing act
 
